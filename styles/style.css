@@ -1,0 +1,80 @@
+body {
+    font-family: "Californian FB";
+}
+
+table {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bdbdbd;
+}
+
+thead td {
+    font-weight: bold;
+    border-bottom: 1px solid #00bcd4;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 2px 5px;
+}
+
+tbody td.number {
+    text-align: right;
+    font-style: italic;
+}
+
+tbody td.string {
+    color: #009688;;
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #eeeeee;
+    box-shadow: 2px 2px 3px #bdbdbd;
+}
+
+span,
+input {
+    line-height: 24px;
+    height: 24px;
+}
+
+button {
+    box-sizing: content-box;
+    height: 24px;
+    width: 14px;
+    color: #3866cb;
+    background: #3866cb10;
+    border: none;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+span {
+    margin: 0 3px;
+    font-size: 28px;
+    font-weight: lighter;
+    height: 30px;
+    line-height: 28px;
+    color: #ccc;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    border: 1px solid #3866cb3f;
+    margin: 2px;
+    padding: 0;
+    width: 222px;
+}
